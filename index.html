@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jovan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-indicator">
+        <div class="indicator-dot active" data-section="home"></div>
+        <div class="indicator-dot" data-section="about"></div>
+        <div class="indicator-dot" data-section="skills"></div>
+        <div class="indicator-dot" data-section="projects"></div>
+        <div class="indicator-dot" data-section="contact"></div>
+    </div>
+    <header>
+        <div class="pixel-background"></div>
+        <div class="container">
+            <div class="header-content">    
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">Welcome To My Portfolio</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <audio id="bg-music" autoplay loop muted>
+            <source src="its-showtime.mp3" type="audio/mpeg">
+          </audio>
+      
+          <button id="music-btn" class="pixel-btn">🔇 Unmute</button>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jovan Azka Fabiandra</h1>
+                <p class="tagline">Life Can Only Be Understood Backwards, But It Must Be Lived Forwards.</p>
+                
+                <div class="character-runner">
+                    <div class="runner-character"></div>
+                    <div class="runner-ground"></div>
+                    <div class="runner-items">
+                        <div class="runner-item" style="left: 20%"></div>
+                        <div class="runner-item" style="left: 40%"></div>
+                        <div class="runner-item" style="left: 60%"></div>
+                        <div class="runner-item" style="left: 80%"></div>
+                    </div>
+                </div>
+                
+                <div>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+                <p>Hi! I’m Jovan, a web developer with skills in HTML, CSS, JavaScript, React.js, Laravel, PHP, C#, and Figma. I’m passionate about continuously learning and improving my craft to become a stronger developer.</p>
+                <p>I enjoy not only coding but also designing, photo editing, and video editing — bringing together creativity and technology in my projects.</p>
+                <p>Every project I work on is an opportunity to explore new ideas, refine my skills, and deliver engaging, modern, and efficient solutions.</p>                
+            </div>
+            <div class="img-portrait">
+              <img src="jopan.jpg" class="profile-pic">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/html.jpg"></div>
+                    <h3>HTML</h3>
+                    <p>Building semantic and accessible web structures with clean markup</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/css.jpg"></div>
+                    <h3>CSS</h3>
+                    <p>Crafting modern layouts with responsive design and smooth animations</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/javascript.jpg"></div>
+                    <h3>JavaScript</h3>
+                    <p>Developing interactive features with efficient ES6+ code and logic</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/reactjs.png"></div>
+                    <h3>ReactJS</h3>
+                    <p>Creating dynamic, scalable, and user-friendly interfaces with React ecosystem</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/laravel.jpg"></div>
+                    <h3>Laravel</h3>
+                    <p>Building powerful and maintainable backend systems using PHP Laravel framework</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="/assets/figma.jpg"></div>
+                    <h3>Figma</h3>
+                    <p>Designing user interfaces, prototypes, and visuals with a creative touch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/moviegratis.jpg" alt="Movie Gratis ReactJS">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Gratis ReactJS</h3>
+                        <p>A simple streaming website for watching movies and anime for free. Built with ReactJS, HTML, and Bootstrap for a responsive and modern UI.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">ReactJS</a>
+                            <a href="#" class="project-link">HTML</a>
+                            <a href="#" class="project-link">Bootstrap (CSS)</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/eventplanner.jpg" alt="Event Planner ReactJS">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Event Planner ReactJS</h3>
+                        <p>A lightweight app for creating and managing events. Developed using ReactJS with a clean and minimal interface.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">ReactJS</a>
+                            <a href="#" class="project-link">HTML</a>
+                            <a href="#" class="project-link">Bootstrap (CSS)</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/sd99.jpg" alt="Mockup Figma Web Sekolah">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mockup Web Sekolah</h3>
+                        <p>A school website mockup designed in Figma. Includes a homepage, school profile, and news section as a reusable template.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Figma</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/articles.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Website Article Sederhana</h3>
+                        <p>An article management web application built with Laravel. Features CRUD functionality, multi-user roles (admin & student), and a responsive Bootstrap layout.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Laravel</a>
+                            <a href="#" class="project-link">CSS (Bootstrap)</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/snakegame.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Snake Game Sederhana</h3>
+                        <p>A classic 2D snake game made with Unity and C#. Includes scoring, levels, and fun challenges for players.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">C#</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="porto/piano.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Website Piano Sederhana</h3>
+                        <p>An interactive website to play piano online. Created using HTML, CSS, and JavaScript, allowing users to play notes directly in the browser.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">HTML</a>
+                            <a href="#" class="project-link">CSS</a>
+                            <a href="#" class="project-link">JavaScript</a>
+
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <div class="contact-form">
+            <form id="contactForm" action="https://formspree.io/f/xanbrgay" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="form-btn">Send Message</button>
+            </form>
+            <p id="formStatus" style="margin-top:10px; color:lime; display:none;">Message sent successfully ✅</p>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/gugugagamakanbrem" class="social-link"><img src="/assets/github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/jopann_12/?__pwa=1" class="social-link"><img src="/assets/ig.png" alt="Instagram"></a> 
+            </div>
+            <p>© 2025 Jovan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
