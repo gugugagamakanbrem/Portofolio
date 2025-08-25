@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const music = document.getElementById("bg-music");
-music.volume = 0.3;
+music.volume = 0.7;
 const btn = document.getElementById("music-btn");
 
 btn.addEventListener("click", () => {
@@ -104,3 +104,4 @@ form.addEventListener("submit", async (e) => {
     status.innerText = "Oops, something went wrong ❌";
   }
 });
+
